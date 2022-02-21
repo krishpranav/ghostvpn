@@ -7,3 +7,6 @@
 # ide cache
 .vscode/
 .idea/
+
+# to avoid conflicts
+Cargo.lock
