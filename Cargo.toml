@@ -19,7 +19,7 @@ anyhow = "1"
 mimalloc = { version = "*", default-features = false }
 
 [target.'cfg(any(target_os = "linux", target_os = "macos"))'.dependencies]
-tun = { git = "https://github.com/meh/rust-tun.git", branch = "custom" }
+tun = { git = "https://github.com/meh/rust-tun.git", branch = "master" }
 
 [profile.release]
 lto = true
